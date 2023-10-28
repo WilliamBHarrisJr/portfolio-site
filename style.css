@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Yesteryear&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@300;400;500;600&family=Yesteryear&display=swap");
 
 * {
   margin: 0;
@@ -179,8 +179,8 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-
-  flex-direction: column;
+  flex-direction: row;
+  margin: auto 0;
 }
 
 .section__pic-container-relative {
@@ -207,11 +207,12 @@ section {
   justify-items: center;
   margin: auto 0;
 }
-#profile-pic-upper-container p {
-  margin-top: 0.2rem;
-  font-size: 1.3rem;
-  font-family: "Yesteryear", cursive;
+
+#click-me {
+  font-size: 1.2rem;
+  font-family: "Caveat", cursive;
   color: lightgray;
+  transition: opacity 500ms ease-in-out;
 }
 
 #profile-pic-1,
@@ -220,7 +221,6 @@ section {
 #profile-pic-4 {
   opacity: 1;
   transition: opacity 500ms ease-in-out;
-  cursor: pointer;
 }
 
 .section__text {
@@ -433,11 +433,11 @@ h2 {
 }
 
 .expand-button:checked::before {
-  content: "Collapse";
+  content: "Show Less";
 }
 
 .about-text:has(+ .expand-button:checked) {
-  --max-lines: 25;
+  --max-lines: none;
 }
 
 /* skills Section */

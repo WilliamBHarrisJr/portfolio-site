@@ -8,6 +8,8 @@ function toggleMenu() {
 var count = 1;
 
 function toggleImage() {
+  let clickme = document.getElementById("click-me");
+  clickme.style.opacity = 0;
   let pic1 = document.getElementById("profile-pic-1");
   let pic2 = document.getElementById("profile-pic-2");
   let pic3 = document.getElementById("profile-pic-3");
