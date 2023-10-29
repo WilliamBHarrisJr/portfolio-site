@@ -557,24 +557,6 @@ article .icon {
   cursor: default;
 }
 
-/* Footer Section */
-
-footer {
-  height: 30vh;
-  margin: 0 1rem;
-  display: inline;
-  justify-content: space-around;
-}
-
-footer p {
-  text-align: center;
-  justify-self: center;
-}
-
-.nav-links-container {
-  padding-top: 4rem;
-}
-
 /* Project Page */
 
 #back-button:hover {
