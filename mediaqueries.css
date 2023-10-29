@@ -1,11 +1,3 @@
-@media screen and (max-width: 1450px) {
-  .project-about-containers article {
-    width: fit-content;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
 @media screen and (max-width: 1410px) {
   #profile {
     height: 83vh;
@@ -61,7 +53,7 @@
     align-self: center;
   }
   .section-container {
-    padding-top: 2rem;
+    padding-top: 1rem;
     gap: 1rem;
     display: flex;
     width: fit-content;
@@ -203,6 +195,15 @@
     height: 30vh;
     justify-content: center;
     margin-bottom: 2rem;
+  }
+  .about-pic-container {
+    height: 0px;
+    width: 0px;
+    padding: none;
+    margin: none;
+    display: none;
+    position: none;
+    appearance: none;
   }
   .section__pic-container-relative {
     height: 30vh;
