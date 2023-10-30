@@ -151,7 +151,7 @@
 }
 
 @media screen and (max-width: 43.125em) {
-  #profile #contact {
+  #profile {
     height: 40vh;
   }
   #profile {
@@ -237,7 +237,6 @@
   }
   #contact {
     position: static;
-    height: 70%;
   }
 
   .nav-links-container {
@@ -299,9 +298,6 @@
 }
 
 @media screen and (max-width: 25em) {
-  #contact {
-    max-height: 20%rem;
-  }
   .contact-info-upper-container {
     align-content: center;
   }
