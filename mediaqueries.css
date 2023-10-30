@@ -103,14 +103,14 @@
 
   #gallery {
     position: static;
-    max-height: fit-content;
+    height: fit-content;
     align-items: center;
   }
 
   .gallery-container {
     margin-top: 1rem;
     width: 85%;
-    max-height: fit-content;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
