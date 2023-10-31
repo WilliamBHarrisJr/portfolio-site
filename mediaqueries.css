@@ -88,7 +88,7 @@
     left: 0;
   }
   #about {
-    position: static;
+    position: unset;
   }
   .about-pic {
     width: 100%;

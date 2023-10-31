@@ -171,7 +171,8 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: fit-content;
+  min-height: 80vh;
   position: relative;
 }
 
@@ -329,6 +330,8 @@ section {
 
 #about {
   position: relative;
+  height: fit-content;
+  min-height: 96vh;
 }
 
 h3 {
@@ -398,7 +401,7 @@ h2 {
 }
 
 #portfolio .details-container {
-  max-width: 25rem;
+  max-width: 20rem;
 }
 
 .section-container {
@@ -444,6 +447,8 @@ h2 {
 
 #skills {
   position: relative;
+  height: fit-content;
+  min-height: 96vh;
 }
 
 .skills-sub-title {
@@ -464,7 +469,7 @@ h2 {
   text-align: center;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 2rem;
   justify-content: space-around;
 }
 
@@ -487,6 +492,8 @@ article .icon {
 
 #portfolio {
   position: relative;
+  height: fit-content;
+  min-height: 96vh;
 }
 
 .color-container {
@@ -680,4 +687,6 @@ article .icon {
 
 #features {
   position: relative;
+  height: fit-content;
+  min-height: 86vh;
 }
