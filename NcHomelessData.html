@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NC Homeless Data Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="lightbox.css" />
+    <link rel="icon" href="assets/favicon.ico">
+  </head>
+  <body id="top-of-page">
+    <nav id="desktop-nav">
+      <div> <a href="index.html#portfolio" id="back-button"> < Portfolio</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div> <a href="index.html#portfolio" id="back-button"> < Portfolio</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#features" onclick="toggleMenu()">Features</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#gallery" onclick="toggleMenu()">Gallery</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container project-pic-container">
+        <img src="./assets/screenshots/Renders/homeless_render_profile.png" alt="Profile" class="project-profile-img" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Check Out My</p>
+        <h1 class="title">NC Homeless</h1>
+        <p class="section__text__p2">Data Project</p>
+        <div id="socials-container">
+          <div class="social-button-container">
+            <img
+              src="./assets/jupyter-logo-white.png"
+              alt="My LinkedIn Profile"
+              class="icon social-button"
+              onclick="location.href='NcHomelessNotebook.html'"
+            />
+            <img
+              src="./assets/jupyter-logo.png"
+              alt="My LinkedIn Profile"
+              class="icon social-button social-button-hover"
+              onclick="location.href='NcHomelessNotebook.html'"
+            />
+          </div>
+          <div class="social-button-container">
+            <img
+              src="./assets/power-bi-logo-white.png"
+              alt="My LinkedIn Profile"
+              class="icon social-button"
+              onclick="location.href='./assets/NcHomelessDashboard.pdf'"
+            />
+            <img
+              src="./assets/power-bi-logo.png"
+              alt="My LinkedIn Profile"
+              class="icon social-button social-button-hover"
+              onclick="location.href='./assets/NcHomelessDashboard.pdf'"
+            />
+          </div>
+      </div>
+      <div>
+      <img
+        src="./assets/arrow-white.png"
+        alt=""
+        class="icon arrow"
+        onclick="location.href='#features'"
+      />
+      <img
+        src="./assets/arrow-blue.png"
+        alt=""
+        class="icon arrow arrow-hover"
+        onclick="location.href='#features'"
+      />
+    </section>
+    <section id="features" class="about-project">
+      <img
+        src="./assets/arrow-up-white.png"
+        alt=""
+        class="icon arrow-up"
+        onclick="location.href='#top-of-page'"
+      />
+      <img
+        src="./assets/arrow-up-blue.png"
+        alt=""
+        class="icon arrow-up arrow-hover"
+        onclick="location.href='#top-of-page'"
+      />
+      <p class="section__text__p1">Explore It's</p>
+      <h1 class="title">Features</h1>
+      <div class="section-container">
+        <div class="section__pic-container about-pic-container main-about-pic">
+          <img src="assets/screenshots/Renders/jupyter-render-1.png" class="about-pic">
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers project-about-containers">
+            <div class="features-details-container">
+              <div class="features-article">
+                <img src="assets/checkmark.png" class="icon">
+                <p>Loads CSV Data into Pandas Dataframes. 
+                </p>
+              </div>
+              <div class="features-article">
+                <img src="assets/checkmark.png" class="icon">
+                <p>Explores And Transforms Data using Python Libraries. 
+                </p>
+              </div>
+              <div class="features-article">
+                <img src="assets/checkmark.png" class="icon">
+                <p>Visualizes Data in Various Charts. 
+                </p>
+              </div>
+              <div class="features-article">
+                <img src="assets/checkmark.png" class="icon">
+                <p>Trains Random Forest Regression Model to Predict 2025 Homeless Population.
+                </p>
+              </div>
+              <div class="features-article">
+                <img src="assets/checkmark.png" class="icon">
+                <p>Uploads Cleaned Data to SQL Database Table.
+                </p>
+              </div>
+              <div class="features-article">
+                <img src="assets/checkmark.png" class="icon">
+                <p>Downloads SQL table into Power BI and presents it in an Interactive Dashboard. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow-white.png"
+        alt=""
+        class="icon arrow"
+        onclick="location.href='#about'"
+      />
+      <img
+        src="./assets/arrow-blue.png"
+        alt=""
+        class="icon arrow arrow-hover"
+        onclick="location.href='#about'"
+      />
+    </section>
+    <section id="about" class="about-project">
+      <img
+        src="./assets/arrow-up-white.png"
+        alt=""
+        class="icon arrow-up"
+        onclick="location.href='#features'"
+      />
+      <img
+        src="./assets/arrow-up-blue.png"
+        alt=""
+        class="icon arrow-up arrow-hover"
+        onclick="location.href='#features'"
+      />
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About This Project</h1>
+      <div class="section-container">
+        <div class="section__pic-container about-pic-container main-about-pic">
+          <img src="assets/screenshots/Renders/powerbi-render-1.png" class="about-pic">
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers project-about-containers">
+            <div class="details-container">
+              <div class="article-container">
+                <article>
+                  <div>
+                    <img
+                      src="./assets/python-logo.png"
+                      alt=""
+                      class="icon-medium"
+                    />
+                    <h3>Python</h3>
+                  </div>
+                </article>
+                <article>
+                  <div>
+                    <img
+                      src="./assets/sql-logo.png"
+                      alt=""
+                      class="icon-medium"
+                    />
+                    <h3>SQL</h3>
+                  </div>
+                </article>
+                <article>
+                  <div>
+                    <img
+                      src="./assets/jupyter-logo.png"
+                      class="icon-medium"
+                    />
+                    <h3>Jupyter</h3>
+                  </div>
+                </article>
+                <article>
+                  <div>
+                    <img
+                      src="./assets/power-bi-logo.png"
+                      class="icon-medium"
+                    />
+                    <h3>Power BI</h3>
+                  </div>
+                </article>
+              </div>
+          </div>
+          <div class="text-container">
+            <p class="about-text">
+              Python data pipeline to analyze NC Point-in-Time homeless data for 2007-2024, 
+              cleaning and merging data with population estimates and correcting units. 
+              Visualizes trends using Matplotlib and predicts 2025 homelessness with a 
+              simplified Random Forest model, uploads data to PostgrSQL database. SQL table downloads 
+              to interactive Power BI dashboard with line charts, a dual-axis chart, a metrics table, and a 2025 prediction card.
+            </p>
+            <input class="expand-button" type="checkbox">
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow-white.png"
+        alt=""
+        class="icon arrow"
+        onclick="location.href='#gallery'"
+      />
+      <img
+        src="./assets/arrow-blue.png"
+        alt=""
+        class="icon arrow arrow-hover"
+        onclick="location.href='#gallery'"
+      />
+    </section>
+    <section id="gallery">
+      <img
+        src="./assets/arrow-up-white.png"
+        alt=""
+        class="icon arrow-up"
+        onclick="location.href='#about'"
+      />
+      <img
+        src="./assets/arrow-up-blue.png"
+        alt=""
+        class="icon arrow-up arrow-hover"
+        onclick="location.href='#about'"
+      />
+      <p class="section__text__p1">Browse the</p>
+      <h1 class="title">Gallery</h1>
+      <div class="gallery-container">
+        <div class="gallery">
+            <a href="assets/screenshots/jupyter-2.png" data-lightbox="screenshots" data-title="NC Homeless Population Trend">
+              <img src="assets/screenshots/Renders/jupyter-render-2.png">
+            </a>
+            <a href="assets/screenshots/jupyter-3.png" data-lightbox="screenshots" data-title="NC Homeless Population Sheltered vs Unsheltered">
+              <img src="assets/screenshots/Renders/jupyter-render-3.png">
+            </a>
+            <a href="assets/screenshots/jupyter-4.png" data-lightbox="screenshots" data-title="NC Homless Population vs NC Population">
+              <img src="assets/screenshots/Renders/jupyter-render-4.png">
+            </a>
+            <a href="assets/screenshots/jupyter-5.png" data-lightbox="screenshots" data-title="2025 NC Homeless Population Prediction">
+              <img src="assets/screenshots/Renders/jupyter-render-5.png">
+            </a>
+            <a href="assets/screenshots/power-bi-1.png" data-lightbox="screenshots" data-title="Power BI Page 1">
+              <img src="assets/screenshots/Renders/powerbi-render-1.png">
+            </a>
+            <a href="assets/screenshots/power-bi-2.png" data-lightbox="screenshots" data-title="Power BI Page 2">
+              <img src="assets/screenshots/Renders/powerbi-render-2.png">
+            </a>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
+  </body>
+</html>
